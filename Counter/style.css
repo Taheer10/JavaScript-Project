@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.counterDiv {
+  height: 30vh;
+  border: 2px solid white;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 1px solid black;
+}
+button {
+  height: 5vh;
+  width: 12vw;
+  border-radius: 5px;
+}
+p {
+  font-size: 70px;
+  color: red;
+}
+h1 {
+  font-size: 80px;
+}
